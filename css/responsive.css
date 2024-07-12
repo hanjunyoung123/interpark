@@ -54,3 +54,8 @@
         width: 77px;
     }
 }
+@media  screen and (max-width:480px){
+    .promotion .inner{
+        width: 80%;
+    }
+}
