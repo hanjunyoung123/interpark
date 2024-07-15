@@ -53,6 +53,22 @@
     .logo{
         width: 77px;
     }
+    .sw-promotion-control{
+        display: block;
+        height: 23px;
+    }
+    .sw-promotion-pg{
+        height: 23px;
+        margin-top: 10px;
+    }
+    .swiper-pagination-bullet{
+        border-radius: 0;
+        background-color: blue;
+    }
+    .swiper-pagination-bullet-active{
+        width: 20px;
+        background-color: red;
+    }
 }
 @media  screen and (max-width:480px){
     .promotion .inner{
