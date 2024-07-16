@@ -4,7 +4,8 @@
 @import url("header.css");
 @import url("promotion.css");
 @import url("shopping.css");
-
+@import url("tour.css");
+@import url("ticket.css");
 * {
   margin: 0;
   padding: 0;
@@ -69,6 +70,9 @@ body {
 /* 센션 하단의 링크버튼 */
 .section-bottom{
   text-align: center;
+}
+.section-slide{
+  margin-bottom: 20px;
 }
 .bt-link-shop{
   display: inline-block;
@@ -221,7 +225,7 @@ body {
   position: absolute;
   width: 2px;
   height: 16px;
-  top: 2px;
+  top: 100px;
   background-color:rgba(0, 0, 0, 0.2);
 }
 .service-menu li a{
