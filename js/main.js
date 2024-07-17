@@ -131,53 +131,29 @@ const swTour = new Swiper(".sw-tour" ,{
     },
   }
 });
+
 // 티켓 스와이퍼
-const swTikcet = new Swiper(".sw-ticket" ,{
-    slidesPerView: 3,
+const swTicket = new Swiper(".sw-ticket" ,{
+  slidesPerView: 2,
   navigation: {
     nextEl: ".ticket .sw-next",
     prevEl: ".ticket .sw-prev",
   },
   loop:true,
-  grid:{
-    rows:2,
-    fill:"row"
-  },
   breakpoints: {
-    320: {
+    480: {
       spaceBetween: 32,
-        slidesPerView:1.2,
-        grid:{
-          rows:2,
-          fill:"row"
-        },
+      slidesPerView: 2,
     },
-    900: {
+    1024: {
       spaceBetween: 32,
-        slidesPerView:2,
-        grid:{
-          rows:6,
-          fill:"row"
-        },
+      slidesPerView: 3,
+    
     },
-    1024:{
-      spaceBetween: 32,
-        slidesPerView: 2,
-        slidesPerGroup: 3,
-        grid:{
-          rows:1,
-          fill:"row"
-        },
-    },
-    1280:{
+    1280: {
       spaceBetween: 26,
-        slidesPerView: 3,
-        slidesPerGroup: 3,
-        grid:{
-          rows:1,
-          fill:"row"
-        },
+      slidesPerView:4,
     },
-  }
-});
+  },
+})
 }
