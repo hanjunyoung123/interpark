@@ -134,7 +134,7 @@ const swTour = new Swiper(".sw-tour" ,{
 
 // 티켓 스와이퍼
 const swTicket = new Swiper(".sw-ticket" ,{
-  slidesPerView: 2,
+  slidesPerView: 4,
   navigation: {
     nextEl: ".ticket .sw-next",
     prevEl: ".ticket .sw-prev",
@@ -155,5 +155,25 @@ const swTicket = new Swiper(".sw-ticket" ,{
       slidesPerView:4,
     },
   },
+})
+// 라이브 스와이퍼
+const swLive = new Swiper(".sw-live",{
+  slidesPerView : 4,
+  spaceBetween : 27,
+  
+  breakpoints:{
+    1200 :{
+      slidesPerView:4
+    },
+    900 :{
+      slidesPerView:3
+    },
+    600 :{
+      slidesPerView:2
+    },
+    365 :{
+      slidesPerView:1
+    }
+  }
 })
 }
