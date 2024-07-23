@@ -20,6 +20,7 @@
     width: 100%;
     position: relative;
     height: 100%;
+    min-height: 200px;
 }
 .live-img img{
     height: 100%;
